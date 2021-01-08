@@ -116,7 +116,7 @@ Module.register('MMM-OneTracker', {
           var description = parcel.description
             ? `${parcel.description} (${parcel.carrier})`
             : `${parcel.carrier} (#${parcel.tracking_id})`;
-          Title.classList.add('small', 'bright', 'no-wrap', 'Title');
+          Title.classList.add('xsmall', 'bright', 'no-wrap', 'Title');
           Title.innerHTML = description;
           dataWrapper.appendChild(Title);
 
