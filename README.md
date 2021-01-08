@@ -1,6 +1,7 @@
 ## MMM-OneTracker
 
 Track all your deliveries using the OneTracker API
+Fork of seeshaughnessy/MMM-OneTracker
 
 ## Here's what you get
 
@@ -16,7 +17,7 @@ Unlike most tracking services, OneTracker doesn't require you to link your email
 
 ## Installation
 
-- `git clone https://github.com/seeshaughnessy/MMM-OneTracker` into the `~/MagicMirror/modules` directory.
+- `git clone https://github.com/ooom416354/MMM-OneTracker` into the `~/MagicMirror/modules` directory.
 
 - Sign up for a free account using the OneTracker app (There's NO API Key! Just use your username and password in the config to authenticate)
 
@@ -42,12 +43,3 @@ Unlike most tracking services, OneTracker doesn't require you to link your email
     },
 
 This module is based off of Mykle1's module, MMM-AfterShip (https://github.com/mykle1/MMM-AfterShip).
-
-It is my first attempt at adapting a module for Magic Mirror. It's one of my first coding projects in general, so please be kind regarding the messy code. That being said, please let me know if you have any feedback so that I can learn and grow!
-
-##Features I'd like to add
-
-- [ ] Add fade to bottom of list, similar to calendar module
-- [ ] Sort deliveries by most recent expected tracking date
-- [ ] Clean up and refactor js and css
-- [ ] Further testing
