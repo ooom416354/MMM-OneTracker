@@ -41,14 +41,14 @@ Module.register('MMM-OneTracker', {
     wrapper.style.maxWidth = this.config.maxWidth;
 
     if (!this.loaded) {
-      wrapper.innerHTML = "Where's my stuff?";
+      wrapper.innerHTML = "Loading";
       wrapper.classList.add('bright', 'light', 'small');
       return wrapper;
     }
 
     if (this.config.useHeader != false) {
       var header = document.createElement('header');
-      header.classList.add('header', 'small', 'dimmed', 'bold');
+      header.classList.add('header', 'small', 'dimmed');
       header.innerHTML =
         this.config.header + ' (' + this.OneTracker.length + ')';
       wrapper.appendChild(header);
