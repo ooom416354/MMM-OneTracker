@@ -1,7 +1,6 @@
 ## MMM-OneTracker
 
 Track all your deliveries using the OneTracker API
-Fork of seeshaughnessy/MMM-OneTracker
 
 ## Here's what you get
 
@@ -42,4 +41,4 @@ Unlike most tracking services, OneTracker doesn't require you to link your email
         }
     },
 
-This module is based off of Mykle1's module, MMM-AfterShip (https://github.com/mykle1/MMM-AfterShip).
+This module is a for of seeshaughnessy/MMM-OneTracker
