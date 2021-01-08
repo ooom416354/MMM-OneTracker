@@ -41,8 +41,8 @@ Module.register('MMM-OneTracker', {
     wrapper.style.maxWidth = this.config.maxWidth;
 
     if (!this.loaded) {
-      wrapper.innerHTML = "Loading...";
-      wrapper.classList.add('bright', 'light', 'small');
+      wrapper.innerHTML = "Loading ...";
+      wrapper.classList.add('dimmed', 'light', 'small');
       return wrapper;
     }
 
