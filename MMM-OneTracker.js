@@ -125,10 +125,10 @@ Module.register('MMM-OneTracker', {
           const statusReadable = parcel.tracking_status_readable;
 
           var locationDiv = document.createElement('div');
-          locationDiv.classList.add('xsmall', 'no-wrap', 'dimmed');
+          locationDiv.classList.add('xsmall', 'no-wrap', 'bright');
 
           var statusDiv = document.createElement('div');
-          statusDiv.classList.add('xsmall', 'no-wrap', 'dimmed');
+          statusDiv.classList.add('xsmall', 'no-wrap', 'bright');
 
           if (statusReadable !== '')
             statusDiv.innerHTML = `<i class="fa fa-calendar" aria-hidden="true"></i>  ${parcel.tracking_status_readable}`;
